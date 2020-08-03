@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: .875rem;
+}
+:root {
+    /* a + a:hover */
+    --a-color: rgba(0,0,0,.54);
+    --a-color-hover: rgba(3, 151, 250, 0.54);
+    /* border */
+    --border-color: rgba(61,175,254,1);
+    /* input, button */
+    --input-border-color: #dcdbdb;
+    --button-background-color: rgba(61,175,254,1);
+    /* color */
+    --gray: rgb(204, 204, 204);
+}
+#icon {
+    border-radius: 100%;
+    background: red
+}
+/* Thanh scrollbar */
+    ::-webkit-scrollbar {
+        width: 0px;
+        background: linear-gradient(white); 
+    }
+    /* End scrollbar */
+ul {
+    list-style-type: none;
+}
+img {
+    width: 100%; height: 100%
+}
+.sub-menu li:hover {cursor: pointer;}
+
+.unset {
+    all: unset
+}

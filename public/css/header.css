@@ -1,0 +1,103 @@
+/* Header-top */
+.header__list-connect span .fab::before {
+    color: white;
+    font-size: 16px;
+    margin: 0px 3px;
+}
+.header__list-connect span:first-child .fab::before {content: '\f09a';}
+.header__list-connect span:last-child .fab::before{content: "\f16d";}
+.header__top div {padding-top: 1px;}
+.header__top h1 {padding-top: 1px;}
+.col-md-6 .title__welcome {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+/* End header-top */
+
+/* menu__middle */
+.header__middle-list-menu {
+    height: 100px;
+    padding-top: 15px;
+}
+.header__middle-box {
+    background: rgba(25,150,255,1);
+    background: linear-gradient(180deg, rgba(25,150,255,1) 85%, rgba(33,161,250,1) 95%);
+    /* background: linear-gradient(180deg, rgba(25,112,254,1) 32%, rgba(61,175,254,1) 81%); */
+}
+
+.search-box__list-menu {
+    padding-left: 50px;
+}
+.header__middle-list-menu .icon {
+    width: 80%;
+    height: 80%
+}
+/* Form */
+.search-box { border-radius: 5px}
+.form-search {
+    height: 100%;
+}
+.form-search input {
+    margin-left: 20px;
+    outline: none;
+    border: none;
+}
+.btn-search {
+    width: 10%; height: 30px;
+    padding: 0px;
+    margin: 5px;
+    color: white;
+    font-size: 24px;
+
+    background: rgba(11, 142, 235, 0.857);
+    /* background: linear-gradient(180deg, rgba(25,112,254,1) 32%, rgba(61,175,254,1) 81%); */
+}
+.bi-search {
+    font-size: 20px;
+}
+.btn-search:hover {
+    opacity: .7;
+    color: white;
+
+}
+/* header__menu */
+.header__menu li{
+    margin: 0px 5px;
+}
+.header__menu li a{
+    color: white;
+    font-size: .75rem;
+    font-weight: 300;
+    line-height: .875rem;
+}
+.header__menu li a:hover{text-decoration: none;}
+
+/* Cart */
+
+.cart__desc {
+    position: absolute;
+    font-size: 18px;
+
+    margin-left: 25.5px;
+    margin-top: -25px;
+    padding: 0px 5px;
+
+
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #45B5FC;
+}
+
+.header__cart {
+    font-size: 35px;
+    margin-top: -10px;
+}
+/* Member box */
+.member-box {
+    display: flex;
+}
+.member-box a {
+    font-size: 14px;
+    color: white
+}
