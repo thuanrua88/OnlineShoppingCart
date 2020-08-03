@@ -41,9 +41,6 @@
             "App\\": "app/",
             "Modules\\": "Modules/"
         },
-        "files" : [
-            "app/Helpers/function.php"
-        ],
         "classmap": [
             "database/seeds",
             "database/factories"
