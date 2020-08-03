@@ -75,6 +75,15 @@ class AdminProductController extends Controller
         $product -> pro_title_seo = $requestProduct -> pro_title_seo ? $requestProduct -> pro_title_seo : $requestProduct -> pro_name;
         $product -> pro_description_seo = $requestProduct -> pro_description_seo ? $requestProduct -> pro_description_seo : $requestProduct -> pro_name;
 
+        if ($requestProduct->hasFile('avatar'))
+        {
+            $file = upload_image('avatar');
+            if (isset($file['name']))
+            {
+                $product->pro_avatar = $file['name'];
+            }
+        }
+
         $product -> save();
     }
 

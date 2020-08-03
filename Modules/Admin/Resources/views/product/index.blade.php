@@ -35,6 +35,7 @@
                 <th>#</th>
                 <th>Tên Sản phẩm</th>
                 <th>Loại sản phẩm</th>
+                <th>Hình ảnh</th>
                 <th>Trạng thái</th>
                 <th>Nổi bật</th>
                 <th>Thao tác</th>
@@ -47,11 +48,14 @@
                     <td>
                         {{$product->pro_name}}
                         <ul style="padding-left: 15px;">
-                            <li><span><i class="fas fa-dollar-sign"></i></span><span>12.000.000</span></li>
+                            <li><span><i class="fas fa-dollar-sign"></i></span><span>{{ $product->pro_price }}</span></li>
                             <li><span><i class="fas fa-dollar-sign"></i></span><span>0 %</span></li>
                         </ul>
                     </td>
                     <td>{{isset($product->category->c_name) ? $product->category->c_name : '[N\A]'}}</td>
+                    <td>
+                        <img src="{{ pare_url_file($product->pro_avatar) }}" alt="" class="img img-responsive" style="width: 80px;height: 80px;">
+                    </td>
                     <td>
                         <a href="{{ route('admin.get.action.product',['active',$product->id]) }}" class="label {{$product->getStatus($product->pro_active)['class']}}">{{$product->getStatus($product->pro_active)['name']}}</a>
                     </td>
