@@ -49,7 +49,7 @@
                         {{$product->pro_name}}
                         <ul style="padding-left: 15px;">
                             <li><span><i class="fas fa-dollar-sign"></i></span><span>{{ $product->pro_price }}</span></li>
-                            <li><span><i class="fas fa-dollar-sign"></i></span><span>0 %</span></li>
+                            <li><span><i class="fas fa-dollar-sign"></i></span><span>{{ $product->pro_sale }}</span></li>
                         </ul>
                     </td>
                     <td>{{isset($product->category->c_name) ? $product->category->c_name : '[N\A]'}}</td>
