@@ -23,7 +23,7 @@
         <nav>
             <?php if(isset($categories)): ?>
                 <?php $__currentLoopData = $categories; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $category): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                    <a href="https://www.thegioididong.com/dtdd" class="mobile" title="Điện thoại di động, smartphone">
+                    <a href="#" class="mobile" title="<?php echo e($category->c_name); ?>">
                         <i class="icontgdd-mobile"></i><b><?php echo e($category->c_name); ?></b>
                     </a>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
@@ -309,4 +309,4 @@
         </style>
     </div>
 </header>
-<?php /**PATH C:\xampp\htdocs\Learn_PHP_FPT\MyTodoList\resources\views/components/header.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\xampp\htdocs\OnlineShoppingCart\resources\views/components/header.blade.php ENDPATH**/ ?>
