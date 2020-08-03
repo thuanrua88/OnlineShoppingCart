@@ -5,7 +5,7 @@
 <script src="https://cdn.tgdd.vn/v2015/Scripts/desktop/detectie/respond.min.js"></script>
 <![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng</title>
+    <title>Mua Hàng Trực Tuyến Và Uy Tín Cùng Đ4T</title>
     <meta name="keywords" content="Thế giới di động, Thegioididong, điện thoại di động, dtdd, smartphone, tablet, máy tính bảng, laptop, máy tính xách tay, phụ kiện, smartwatch, đồng hồ, tin công nghệ">
     <meta name="description" content="Hệ thống bán lẻ điện thoại di động, smartphone, máy tính bảng, tablet, laptop, phụ kiện, smartwatch, đồng hồ chính hãng mới nhất, giá tốt, dịch vụ khách hàng được yêu thích nhất VN">
     <meta property="og:title" content="Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng">
