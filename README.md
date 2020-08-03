@@ -1,1 +1,1 @@
-Wellcom Shopping Online
+Wellcome Shopping Online
