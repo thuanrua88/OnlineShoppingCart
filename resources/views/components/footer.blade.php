@@ -6,11 +6,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('css/font.css')}}">
-    <link rel="stylesheet" href="{{asset('css/footer.css')}}">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 </head>
 <body>
 <!-- Footer -->
@@ -77,6 +73,49 @@
                         </li>
                     </ul>
 
+                    <div class="footer-top__items">
+                        <!--  -->
+                        <h2 class="footer__title">ĐƠN VỊ VẬN CHUYỂN</h2>
+                        <ul class="list_menu-pay grid-3">
+                            <!-- <li>
+                              <div class="pay__icon" style="background-size: 699%;background-position: 60.526315789473685% 1335421%;">
+                              </div>
+                            </li>
+                            <li>
+                              <div class="pay__icon" style="background-position: 19.51567% 59.445783%;
+                  background-size: 1594%;"></div>
+                            </li> -->
+                            <li>
+                                <div class="pay__icon" style="background-position: 7.831909% 68.806452%"></div>
+                            </li>
+                            <li>
+                                <div class="pay__icon"
+                                     style="background-position: 59.686609686609685% 28.91566265060241%;background-size: 1300%;"></div>
+                            </li>
+                            <li>
+                                <div class="pay__icon" style="background-position: 96.868946% 50.770701%;"></div>
+                            </li>
+                            <li>
+                                <div class="pay__icon" style="background-position: 76.358974% 1.952381%;"></div>
+                            </li>
+                            <li>
+                                <div class="pay__icon"
+                                     style="background-size: 564.9253731343283% 434.4827586206897%;background-position: 26.003210272873194% 6.451612903225806%;">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pay__icon"
+                                     style="background-size: 750.561797752809% 262.85714285714283%;background-position: 84.4311377245509% 100%;">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pay__icon" style="background-position: 48.63701578192253% 37.341772%;"></div>
+                            </li>
+                            <li>
+                                <div class="pay__icon" style="background-position: 10.218978102189782% 33.76623376623377%;"></div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="footer-top__items col-lg-2 col-md-4 col-6">
                     <h2 class="footer__title">THEO DÕI CHÚNG TÔI TRÊN</h2>
@@ -112,7 +151,8 @@
               </span>
                     </div>
                 </div>
-                <div class="footer-top__items col-lg-3 col-md-4 col-6">
+
+                <div class="footer-top__items lg-3-none col-md-4 col-6" style="display: none">
                     <!--  -->
                     <h2 class="footer__title">ĐƠN VỊ VẬN CHUYỂN</h2>
                     <ul class="list_menu-pay grid-3">

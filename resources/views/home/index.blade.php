@@ -1,58 +1,78 @@
 @extends('layouts.app')
 @section('content')
-    <aside class="homebanner">
-        <div id="sync1" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
-            <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 11060px; left: 0px; display: block; transition: all 800ms ease 0s; transform: translate3d(-1580px, 0px, 0px);"><div class="owl-item" style="width: 790px;"><div class="item">
-                            <a aria-label="slide" data-cate="0" data-place="212" href="https://www.thegioididong.com/dtdd/oppo-reno4" onclick="jQuery.ajax({ url: &#39;https://www.thegioididong.com/bannertracking?bid=37308&amp;r=&#39;+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="./Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng_files/reno4-chung-800-300-800x300.png" alt="Reno4" width="800" height="300"></a>                </div></div><div class="owl-item" style="width: 790px;"><div class="item">
-                            <a aria-label="slide" data-cate="0" data-place="212" href="https://www.thegioididong.com/sieu-pham-galaxy-note" onclick="jQuery.ajax({ url: &#39;https://www.thegioididong.com/bannertracking?bid=37274&amp;r=&#39;+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="./Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng_files/800-300-800x300-16.png" alt="Note" width="800" height="300"></a>                </div></div><div class="owl-item" style="width: 790px;"><div class="item">
-                            <a aria-label="slide" data-cate="0" data-place="212" href="https://www.thegioididong.com/dtdd/vivo-x50" onclick="jQuery.ajax({ url: &#39;https://www.thegioididong.com/bannertracking?bid=37328&amp;r=&#39;+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="./Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng_files/800-300-800x300-20.png" alt="vivo" width="800" height="300"></a>                </div></div><div class="owl-item" style="width: 790px;"><div class="item">
-                            <a aria-label="slide" data-cate="0" data-place="212" href="https://www.thegioididong.com/dtdd/iphone-xs" onclick="jQuery.ajax({ url: &#39;https://www.thegioididong.com/bannertracking?bid=37388&amp;r=&#39;+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="./Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng_files/800-300-800x300-23.png" alt="iphone" width="800" height="300"></a>                </div></div><div class="owl-item" style="width: 790px;"><div class="item">
-                            <a aria-label="slide" data-cate="0" data-place="212" href="https://www.thegioididong.com/dong-ho-thong-minh/oppo-watch-41mm-day-silicone" onclick="jQuery.ajax({ url: &#39;https://www.thegioididong.com/bannertracking?bid=37384&amp;r=&#39;+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="./Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng_files/oppo-watch-800-300-800x300.png" alt="OPPO Watch[break]Tặng Ngay 700 Ngàn" width="800" height="300"></a>                </div></div><div class="owl-item" style="width: 790px;"><div class="item">
-                            <a aria-label="slide" data-cate="0" data-place="212" href="https://www.thegioididong.com/dong-ho-deo-tay" onclick="jQuery.ajax({ url: &#39;https://www.thegioididong.com/bannertracking?bid=37379&amp;r=&#39;+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="./Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng_files/800-300-800x300-22.png" alt="dong ho thoi trang" width="800" height="300"></a>                </div></div><div class="owl-item" style="width: 790px;"><div class="item">
-                            <a aria-label="slide" data-cate="0" data-place="212" href="https://www.thegioididong.com/khuyen-mai-soc/phu-kien-dong-gia" onclick="jQuery.ajax({ url: &#39;https://www.thegioididong.com/bannertracking?bid=35864&amp;r=&#39;+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="./Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng_files/800-300-800x300-35.png" alt="phu kien" width="800" height="300"></a>                </div></div></div></div>
-
-
-
-
-
-
-
-            <div class="owl-controls clickable"><div class="owl-buttons"><div class="owl-prev">‹</div><div class="owl-next">›</div></div></div></div>
-        <div id="sync2" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
-            <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 2212px; left: 0px; display: block; transition: all 200ms ease 0s; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 158px;"><div class="item">
-                            <h3>OPPO Reno4 Series<br>Quà Đến 3 Triệu</h3>
-                            <i class="arrowbar"></i>
-                        </div></div><div class="owl-item" style="width: 158px;"><div class="item">
-                            <i class="arrowbarleft"></i>
-                            <h3>Đặt Gạch Siêu Phẩm<br>Quà Đến 6 Triệu</h3>
-                            <i class="arrowbar"></i>
-                        </div></div><div class="owl-item synced" style="width: 158px;"><div class="item">
-                            <i class="arrowbarleft"></i>
-                            <h3>Đặt Vivo X50 Series<br>Rước Quà Chất</h3>
-                            <i class="arrowbar"></i>
-                        </div></div><div class="owl-item" style="width: 158px;"><div class="item">
-                            <i class="arrowbarleft"></i>
-                            <h3>iPhone Xs 64GB<br>Giảm Ngay 2,5 Triệu</h3>
-                            <i class="arrowbar"></i>
-                        </div></div><div class="owl-item" style="width: 158px;"><div class="item">
-                            <i class="arrowbarleft"></i>
-                            <h3>OPPO Watch<br>Tặng Ngay 700 Ngàn</h3>
-                            <i class="arrowbar"></i>
-                        </div></div><div class="owl-item" style="width: 158px;"><div class="item">
-                            <i class="arrowbarleft"></i>
-                            <h3>Đồng Hồ Thời Trang<br>Giảm Đến 50%</h3>
-                            <i class="arrowbar"></i>
-                        </div></div><div class="owl-item" style="width: 158px;"><div class="item">
-                            <i class="arrowbarleft"></i>
-                            <h3>Phụ Kiện Online<br>Đồng Giá Từ 199.000đ</h3>
-                        </div></div></div></div>
-
-
-
-
-
-
-        </div>
+    <aside class="container-fluid">
+                <div class="container">
+                    <div class="banner-box">
+                        <div class="row">
+                            <!-- banner box 1 -->
+                            <div class="col-md-8">
+                                <div class="banner__box-slide">
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/p960x960/116353676_2004079979727908_8184493341550115203_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=aTqTqyuksdcAX9l5r_-&_nc_ht=scontent.fhan5-6.fna&_nc_tp=6&oh=7c7f7b5149ed74af0882be40a0424e68&oe=5F47DE8B" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/p960x960/116353676_2004079979727908_8184493341550115203_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=aTqTqyuksdcAX9l5r_-&_nc_ht=scontent.fhan5-6.fna&_nc_tp=6&oh=7c7f7b5149ed74af0882be40a0424e68&oe=5F47DE8B" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/p960x960/116353676_2004079979727908_8184493341550115203_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=aTqTqyuksdcAX9l5r_-&_nc_ht=scontent.fhan5-6.fna&_nc_tp=6&oh=7c7f7b5149ed74af0882be40a0424e68&oe=5F47DE8B" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex flex-column">
+                                    <div class="bnnr__qq1">
+                                        <a href="" class="w-100">
+                                            <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/p960x960/116353676_2004079979727908_8184493341550115203_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=aTqTqyuksdcAX9l5r_-&_nc_ht=scontent.fhan5-6.fna&_nc_tp=6&oh=7c7f7b5149ed74af0882be40a0424e68&oe=5F47DE8B" alt="banner advertisement" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="bnnr__qq2">
+                                        <a href="" class="w-100">
+                                            <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/p960x960/116353676_2004079979727908_8184493341550115203_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=aTqTqyuksdcAX9l5r_-&_nc_ht=scontent.fhan5-6.fna&_nc_tp=6&oh=7c7f7b5149ed74af0882be40a0424e68&oe=5F47DE8B" alt="banner advertisement" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End banner box 1 -->
+                            <!-- banner box 2 -->
+                            <div class="col-md-12 border">
+                                <!-- Swiper -->
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">Slide 1</div>
+                                        <div class="swiper-slide">Slide 2</div>
+                                        <div class="swiper-slide">Slide 3</div>
+                                        <div class="swiper-slide">Slide 4</div>
+                                        <div class="swiper-slide">Slide 5</div>
+                                        <div class="swiper-slide">Slide 6</div>
+                                        <div class="swiper-slide">Slide 7</div>
+                                        <div class="swiper-slide">Slide 8</div>
+                                        <div class="swiper-slide">Slide 9</div>
+                                        <div class="swiper-slide">Slide 10</div>
+                                    </div>
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     </aside>
 
 
