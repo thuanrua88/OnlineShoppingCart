@@ -9,12 +9,7 @@
     <meta property="og:title" content="">
     <link rel="shortcut icon" type="image/png" href="img/iconico.png">
     <title>Mua Hàng Trực Tuyến Và Uy Tín Cùng Đ4T</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset("css/header.css")}}">
-    <link rel="stylesheet" href="{{asset("css/style.css")}}">
-    <link rel="stylesheet" href="{{asset("css/footer.css")}}">
-    <link rel="stylesheet" href="{{asset("css/font.css")}}">
+
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
