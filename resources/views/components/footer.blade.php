@@ -1,6 +1,24 @@
+<<<<<<< HEAD
 <footer>
     <!-- top footer area start -->
     <div class="top-footer-area">
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+<!-- Footer -->
+<footer onkeyup="footer_click()">
+    <div class="container-fuid">
+        <!-- footer top -->
+>>>>>>> 8361957b93fa73069a671f8df8015e42a1de3694
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-4">
@@ -14,6 +32,7 @@
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div class="col-md-3 col-sm-4">
                     <div class="single-snap-footer">
                         <div class="snap-footer-title">
@@ -28,6 +47,78 @@
                                 <li><a href="#">Terms & Condition</a></li>
                             </ul>
                         </div>
+=======
+                <div class="footer-top__items col-lg-3 col-md-4 col-6">
+                    <!-- THANH TOÁN -->
+                    <h2 class="footer__title">THANH TOÁN</h2>
+                    <ul class="list_menu-pay grid-3">
+                        <li>
+                            <div class="pay__icon" style="background-position: 71.37037% 30.967741935483872%;"></div>
+                        </li>
+                        <li>
+                            <div class="pay__icon" style="background-position: 45.01424501424501% 6.451612903225806%;"></div>
+                        </li>
+                        <li>
+                            <div class="pay__icon" style="background-position: 37.60683760683761% 36.64596273291925%;"></div>
+                        </li>
+                        <li>
+                            <div class="pay__icon" style="background-position: 11.315417% 6.172839506172839%;"></div>
+                        </li>
+                        <li>
+                            <div class="pay__icon" style="background-position: 60.264498% 55.483870967741936%;"></div>
+                        </li>
+                        <li>
+                            <div class="pay__icon" style="background-position: 70.65812% 62.58064516129032%;"></div>
+                        </li>
+                        <li>
+                            <div class="pay__icon" style="background-position: 0% 7.575758%;background-size: 1049.5% 344.846154%;">
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="footer-top__items">
+                        <!--  -->
+                        <h2 class="footer__title">ĐƠN VỊ VẬN CHUYỂN</h2>
+                        <ul class="list_menu-pay grid-3">
+                            <!-- <li>
+                              <div class="pay__icon" style="background-size: 699%;background-position: 60.526315789473685% 1335421%;">
+                              </div>
+                            </li>
+                            <li>
+                              <div class="pay__icon" style="background-position: 19.51567% 59.445783%;
+                  background-size: 1594%;"></div>
+                            </li> -->
+                            <li>
+                                <div class="pay__icon" style="background-position: 7.831909% 68.806452%"></div>
+                            </li>
+                            <li>
+                                <div class="pay__icon"
+                                     style="background-position: 59.686609686609685% 28.91566265060241%;background-size: 1300%;"></div>
+                            </li>
+                            <li>
+                                <div class="pay__icon" style="background-position: 96.868946% 50.770701%;"></div>
+                            </li>
+                            <li>
+                                <div class="pay__icon" style="background-position: 76.358974% 1.952381%;"></div>
+                            </li>
+                            <li>
+                                <div class="pay__icon"
+                                     style="background-size: 564.9253731343283% 434.4827586206897%;background-position: 26.003210272873194% 6.451612903225806%;">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pay__icon"
+                                     style="background-size: 750.561797752809% 262.85714285714283%;background-position: 84.4311377245509% 100%;">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pay__icon" style="background-position: 48.63701578192253% 37.341772%;"></div>
+                            </li>
+                            <li>
+                                <div class="pay__icon" style="background-position: 10.218978102189782% 33.76623376623377%;"></div>
+                            </li>
+                        </ul>
+>>>>>>> 8361957b93fa73069a671f8df8015e42a1de3694
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-4">
@@ -62,6 +153,7 @@
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div class="col-md-2 hidden-sm">
                     <div class="single-snap-footer">
                         <div class="snap-footer-title">
@@ -76,6 +168,51 @@
                             </ul>
                         </div>
                     </div>
+=======
+
+                <div class="footer-top__items lg-3-none col-md-4 col-6" style="display: none">
+                    <!--  -->
+                    <h2 class="footer__title">ĐƠN VỊ VẬN CHUYỂN</h2>
+                    <ul class="list_menu-pay grid-3">
+                        <!-- <li>
+                          <div class="pay__icon" style="background-size: 699%;background-position: 60.526315789473685% 1335421%;">
+                          </div>
+                        </li>
+                        <li>
+                          <div class="pay__icon" style="background-position: 19.51567% 59.445783%;
+              background-size: 1594%;"></div>
+                        </li> -->
+                        <li>
+                            <div class="pay__icon" style="background-position: 7.831909% 68.806452%"></div>
+                        </li>
+                        <li>
+                            <div class="pay__icon"
+                                 style="background-position: 59.686609686609685% 28.91566265060241%;background-size: 1300%;"></div>
+                        </li>
+                        <li>
+                            <div class="pay__icon" style="background-position: 96.868946% 50.770701%;"></div>
+                        </li>
+                        <li>
+                            <div class="pay__icon" style="background-position: 76.358974% 1.952381%;"></div>
+                        </li>
+                        <li>
+                            <div class="pay__icon"
+                                 style="background-size: 564.9253731343283% 434.4827586206897%;background-position: 26.003210272873194% 6.451612903225806%;">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pay__icon"
+                                 style="background-size: 750.561797752809% 262.85714285714283%;background-position: 84.4311377245509% 100%;">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pay__icon" style="background-position: 48.63701578192253% 37.341772%;"></div>
+                        </li>
+                        <li>
+                            <div class="pay__icon" style="background-position: 10.218978102189782% 33.76623376623377%;"></div>
+                        </li>
+                    </ul>
+>>>>>>> 8361957b93fa73069a671f8df8015e42a1de3694
                 </div>
             </div>
         </div>

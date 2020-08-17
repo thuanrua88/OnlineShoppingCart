@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <header class="short-stor">
     <div class="container-fluid">
         <div class="row">
@@ -5,6 +6,35 @@
             <div class="col-md-3 col-sm-12 text-center nopadding-right">
                 <div class="top-logo">
                     <a href="/"><img src="{{ asset('img/logo.gif') }}" alt="" /></a>
+=======
+
+<header>
+    <!-- header top -->
+    <div class="container-fluid"
+         style="background: rgba(33,151,250,1)">
+        <div class="container">
+            <div class="header__top row">
+                <div class="col-md-3">
+                    <div class="header__dowapp text-white">
+                        Dowload Đ4T
+                        <span style="margin: 0px 5px; font-weight: 100; color: white">|</span>
+                        Connect
+                        <span class="header__list-connect ml-1">
+                          <span><a href="" class="fab"></a></span>
+                          <span><a href="" class="fab"></a></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- <h1 class="title__welcome">Chào mừng bạn đã đến với shop bán hàng Đ4T</h1> -->
+                </div>
+                <div class="col-md-3">
+                    <div class="member-box float-right">
+                        <a href="register.php">Đăng kí</a>
+                        <span style="margin: 0px 5px; font-weight: 100; color: white">|</span>
+                        <a href="login.php">Đăng nhập</a>
+                    </div>
+>>>>>>> 8361957b93fa73069a671f8df8015e42a1de3694
                 </div>
             </div>
             <!-- logo end -->
@@ -165,6 +195,7 @@
                 </div>
                 <!-- mobile menu end -->
             </div>
+<<<<<<< HEAD
             <!-- mainmenu area end -->
             <!-- top details area start -->
             <div class="col-md-3 col-sm-12 nopadding-left">
@@ -251,3 +282,10 @@
         </div>
     </div>
 </header>
+=======
+        </div>
+    </div>
+</header>
+<!-- Footer -->
+
+>>>>>>> 8361957b93fa73069a671f8df8015e42a1de3694

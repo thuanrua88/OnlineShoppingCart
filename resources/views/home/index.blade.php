@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+<<<<<<< HEAD
     <!-- latestpost area start -->
 {{--    @include('components.slide')--}}
     <!-- latestpost area start -->
@@ -625,6 +626,108 @@
     <!-- banner-area start -->
     @include('components.banner')
     <!-- banner-area end -->
+=======
+    <aside class="container-fluid">
+                <div class="container">
+                    <div class="banner-box">
+                        <div class="row">
+                            <!-- banner box 1 -->
+                            <div class="col-md-8">
+                                <div class="banner__box-slide">
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/p960x960/116353676_2004079979727908_8184493341550115203_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=aTqTqyuksdcAX9l5r_-&_nc_ht=scontent.fhan5-6.fna&_nc_tp=6&oh=7c7f7b5149ed74af0882be40a0424e68&oe=5F47DE8B" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/p960x960/116353676_2004079979727908_8184493341550115203_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=aTqTqyuksdcAX9l5r_-&_nc_ht=scontent.fhan5-6.fna&_nc_tp=6&oh=7c7f7b5149ed74af0882be40a0424e68&oe=5F47DE8B" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/p960x960/116353676_2004079979727908_8184493341550115203_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=aTqTqyuksdcAX9l5r_-&_nc_ht=scontent.fhan5-6.fna&_nc_tp=6&oh=7c7f7b5149ed74af0882be40a0424e68&oe=5F47DE8B" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex flex-column">
+                                    <div class="bnnr__qq1">
+                                        <a href="" class="w-100">
+                                            <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/p960x960/116353676_2004079979727908_8184493341550115203_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=aTqTqyuksdcAX9l5r_-&_nc_ht=scontent.fhan5-6.fna&_nc_tp=6&oh=7c7f7b5149ed74af0882be40a0424e68&oe=5F47DE8B" alt="banner advertisement" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="bnnr__qq2">
+                                        <a href="" class="w-100">
+                                            <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/p960x960/116353676_2004079979727908_8184493341550115203_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=aTqTqyuksdcAX9l5r_-&_nc_ht=scontent.fhan5-6.fna&_nc_tp=6&oh=7c7f7b5149ed74af0882be40a0424e68&oe=5F47DE8B" alt="banner advertisement" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End banner box 1 -->
+                            <!-- banner box 2 -->
+                            <div class="col-md-12 border">
+                                <!-- Swiper -->
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">Slide 1</div>
+                                        <div class="swiper-slide">Slide 2</div>
+                                        <div class="swiper-slide">Slide 3</div>
+                                        <div class="swiper-slide">Slide 4</div>
+                                        <div class="swiper-slide">Slide 5</div>
+                                        <div class="swiper-slide">Slide 6</div>
+                                        <div class="swiper-slide">Slide 7</div>
+                                        <div class="swiper-slide">Slide 8</div>
+                                        <div class="swiper-slide">Slide 9</div>
+                                        <div class="swiper-slide">Slide 10</div>
+                                    </div>
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </aside>
+
+
+    <aside class="homenews">
+        <figure>
+            <h2><a href="https://www.thegioididong.com/tin-tuc">Tin công nghệ</a></h2>
+            <b></b>
+        </figure>
+        <ul>
+            <li>
+                <a href="https://www.thegioididong.com/tin-tuc/24h-cong-nghe-hot-26-7-oppo-a72-5g-ra-mat-voi-gia-6-2-trieu-1273951">
+                    <img width="100" height="70" src="./Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng_files/oppo_800x450-100x100.jpg" alt="🎧 Tuần qua công nghệ có gì HOT 1/8: Dòng OPPO Reno5 sẽ dùng chip hàng đầu, Galaxy Note 20 Ultra lộ điểm sức mạnh trên Geekbench">
+                    <h3>🎧 Tuần qua công nghệ có gì HOT 1/8: Dòng OPPO Reno5 sẽ dùng chip hàng đầu, Galaxy Note 20 Ultra lộ điểm sức mạnh trên Geekbench</h3>
+                    <span>16 phút trước</span>
+                </a>
+            </li>
+        </ul>
+        <div class="twobanner ">
+            <a aria-label="slide" data-cate="0" data-place="1158" href="https://www.thegioididong.com/samsung" onclick="jQuery.ajax({ url: &#39;https://www.thegioididong.com/bannertracking?bid=37444&amp;r=&#39;+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="./Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng_files/Sam-samsung-398-110-398x110.png" alt="SS" width="398" height="110"></a>
+            <a aria-label="slide" data-cate="0" data-place="1158" href="https://www.thegioididong.com/apple#iphone" onclick="jQuery.ajax({ url: &#39;https://www.thegioididong.com/bannertracking?bid=37396&amp;r=&#39;+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="./Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng_files/398-110-398x110-1.png" alt="iphone" width="398" height="110"></a>    </div>
+
+    </aside>
+
+    <div class="clr"></div>
+    <div class="promotebanner b1">
+        <a aria-label="slide" data-cate="0" data-place="1197" href="https://www.thegioididong.com/flashsale" onclick="jQuery.ajax({ url: &#39;https://www.thegioididong.com/bannertracking?bid=35988&amp;r=&#39;+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="./Thegioididong.com - Điện thoại, Laptop, Phụ kiện, Đồng hồ chính hãng_files/1200-75-1200x75-4.png" alt="Mừng 8/3[break]Giảm Đến 38%" width="1200" height="75"></a>    </div>
+
+>>>>>>> 8361957b93fa73069a671f8df8015e42a1de3694
 
     <!-- product section start -->
     <div class="our-product-area new-product">

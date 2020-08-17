@@ -48,10 +48,11 @@
             "database/seeds",
             "database/factories"
         ],
-        "files" : [
+        "files": [
             "app/Helpers/function.php"
         ]
     },
+
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"

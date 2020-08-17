@@ -44,7 +44,9 @@
     .pay__icon {
     background: url("../img/footer__icon.png");
     padding: 18px 0px
-}
+    }
+
+    .lg-3-none {display: none !important;}
 
     /* End Pay icon */
     /* list_menu-about (footer-top div 4) */

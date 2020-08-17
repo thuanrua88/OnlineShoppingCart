@@ -54,7 +54,7 @@
                     </td>
                     <td>{{isset($product->category->c_name) ? $product->category->c_name : '[N\A]'}}</td>
                     <td>
-                        <img src="{{ pare_url_file($product->pro_avatar) }}" alt="" class="img img-responsive" style="width: 80px;height: 80px;">
+                        <img src="{{ "..".pare_url_file($product->pro_avatar) }}" alt="" class="img img-responsive" style="width: 80px;height: 80px;">
                     </td>
                     <td>
                         <a href="{{ route('admin.get.action.product',['active',$product->id]) }}" class="label {{$product->getStatus($product->pro_active)['class']}}">{{$product->getStatus($product->pro_active)['name']}}</a>
