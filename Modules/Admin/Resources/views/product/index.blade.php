@@ -48,7 +48,7 @@
                     <td>
                         {{$product->pro_name}}
                         <ul style="padding-left: 15px;">
-                            <li><span><i class="fas fa-dollar-sign"></i></span><span>{{ $product->pro_price }}</span></li>
+                            <li><span><i class="fas fa-dollar-sign"></i></span><span>{{ number_format($product->pro_price,0,',',',') }}</span></li>
                             <li><span><i class="fas fa-dollar-sign"></i></span><span>{{ $product->pro_sale }}</span></li>
                         </ul>
                     </td>

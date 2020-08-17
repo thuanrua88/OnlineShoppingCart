@@ -23,8 +23,9 @@
             <thead>
             <tr>
                 <th>#</th>
-                <th>Tên bài viết</th>
-                <th>Mô tả</th>
+                <th style="width: 20%;">Tên bài viết</th>
+                <th style="width: 100px;">Hình ảnh</th>
+                <th style="width: 300px;">Mô tả</th>
                 <th>Trạng thái</th>
                 <th>Ngày tạo</th>
                 <th>Thao tác</th>
@@ -36,6 +37,9 @@
                     <td>{{$article->id}}</td>
                     <td>
                         {{$article->a_name}}
+                    </td>
+                    <td>
+                        <img src="{{ pare_url_file($article->a_avatar) }}" alt="" class="img img-responsive" style="width: 100px;height: 80px;">
                     </td>
                     <td>{{ $article->a_description }}</td>
                     <td>

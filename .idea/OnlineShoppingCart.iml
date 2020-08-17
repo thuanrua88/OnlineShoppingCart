@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Modules" isTestSource="false" packagePrefix="Modules\" />
       <sourceFolder url="file://$MODULE_DIR$/tests/Feature" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/darryldecode/cart" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/melihovv/laravel-shopping-cart" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/event-dispatcher" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-message" />

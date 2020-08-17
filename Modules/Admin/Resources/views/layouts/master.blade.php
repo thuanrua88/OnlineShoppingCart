@@ -54,8 +54,8 @@
                 <li class="{{ \Request::route()->getName() == 'admin.get.list.category' ? 'active' : '' }}"><a href="{{route('admin.get.list.category')}}">Danh mục</a></li>
                 <li class="{{ \Request::route()->getName() == 'admin.get.list.product' ? 'active' : '' }}"><a href="{{route('admin.get.list.product')}}">Sản phẩm</a></li>
                 <li class="{{ \Request::route()->getName() == 'admin.get.list.article' ? 'active' : '' }}"><a href="{{ route('admin.get.list.article') }}">Tin Tức</a></li>
-                <li><a href="#">Đơn Hàng</a></li>
-                <li><a href="#">Thành viên</a></li>
+                <li class="{{ \Request::route()->getName() == 'admin.get.list.transaction' ? 'active' : '' }}"><a href="{{ route('admin.get.list.transaction') }}">Đơn Hàng</a></li>
+                <li class="{{ \Request::route()->getName() == 'admin.get.list.user' ? 'active' : '' }}"><a href="{{ route('admin.get.list.user') }}">Thành viên</a></li>
             </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
@@ -72,5 +72,23 @@
 {{--<script src="./Dashboard Template for Bootstrap_files/holder.min.js.tải xuống"></script>--}}
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 {{--<script src="./Dashboard Template for Bootstrap_files/ie10-viewport-bug-workaround.js.tải xuống"></script>--}}
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0])
+        {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $('#out_img').attr('src',e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    $("#input_img").change(function () {
+        readURL(this);
+    });
+</script>
+@yield('script')
 </body>
 </html>

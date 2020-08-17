@@ -22,7 +22,7 @@
             </div>
             <div class="form-group">
                 <label for="name">Nội dung:</label>
-                <textarea name="pro_content" class="form-control" id="" cols="30" rows="3" placeholder="Nội dung">{{old('pro_content',isset($product->pro_content) ? $product->pro_content : '')}}</textarea>
+                <textarea name="pro_content" class="form-control" id="pro_content" cols="30" rows="3" placeholder="Nội dung">{{old('pro_content',isset($product->pro_content) ? $product->pro_content : '')}}</textarea>
                 @if($errors->has('pro_content'))
                     <span class="error-text">
                         {{$errors->first('pro_content')}}
@@ -74,8 +74,11 @@
                 <input type="number" placeholder="% giảm giá" class="form-control" name="pro_sale" value="0">
             </div>
             <div class="form-group">
+                <img src="{{ asset('images/imgdefault.png') }}" alt="" id="out_img" style="width: 100%;height: 300px;">
+            </div>
+            <div class="form-group">
                 <label for="name">Avatar:</label>
-                <input type="file" name="avatar" class="form-control">
+                <input type="file" name="avatar" class="form-control" id="input_img">
             </div>
             <div class="form-group">
                 <div class="checkbox">
@@ -86,3 +89,9 @@
     </div>
     <button type="submit" class="btn btn-success">Lưu thông tin</button>
 </form>
+@section('script')
+    <script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
+    <script>
+        CKEDITOR.replace('pro_content');
+    </script>
+@endsection
